@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; // Importing React and the useState hook from the React library
-import Gallery from './Gallery';
+import Gallery from './components/gallery';
 
 function App() { // Defining the App component
   const [tours, setTours] = useState([]);
